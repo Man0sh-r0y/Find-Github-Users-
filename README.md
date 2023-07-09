@@ -4,8 +4,9 @@
 
 ## Dark Mode
 
-![Dev Detective Dark Mode](https://github.com/Man0sh-r0y/Web-Developement-2023/assets/96605313/8a5c76d0-8ba8-4588-95ec-f54684e0b5f7)
+![dev detective dark mode](https://github.com/Man0sh-r0y/Find-Github-Users-/assets/96605313/72cd1081-66af-413a-85be-4955942f728a)
+
 
 ## Light Mode
 
-![Dev-Detective Light Mode](https://github.com/Man0sh-r0y/Web-Developement-2023/assets/96605313/2dcd00c2-cd3f-43a5-8e3a-34a4d91428df)
+![dev detective light mode](https://github.com/Man0sh-r0y/Find-Github-Users-/assets/96605313/b0007f68-e7bc-401e-bebc-ba0de8055996)
