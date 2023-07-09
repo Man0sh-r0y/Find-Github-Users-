@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDetective App</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Cabin:ital,wght@1,700&family=Fjalla+One&family=Martian+Mono:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="container">
+
+            <!--Header Part-->
+            <div class="header">
+                <h1 class="app-name">DevDetective </h1>
+                <div class="themeSwitch-container">
+                    <p class="themmeSwitch-mode">DARK</p><!--We will update it dynamically-->
+                    <img class="themeSwitch-icon" src="assets/moon-icon.svg" themeSwitchIcon>
+                </div>
+            </div>
+
+            <!--Error text while wrong search for user name-->
+            <span errorText></span>
+
+            <!--Form: search option where we can search for github username-->
+            <form class="search-user-name-container" searchUserNameForm>
+                <img src="assets/search-icon.svg" searchIcon>
+                <input placeholder="Enter a Github username..." searchBar>
+                <button type="submit" searchBtn>Search</button>
+            </form>
+
+            <div class="profile-content">
+
+                <div class="user-profile-details">
+
+                    <!--profile image-->
+                    <div class="profile-pic">
+                        <img profile-Img>
+                    </div>
+
+                    <section>
+                        <!--github name-->
+                        <div class="github-name">
+                            <!--github profile name-->
+                            <p profileName></p>
+                            <!--github user name-->
+                            <a githubUserName></a>
+                        </div>
+                        <!--Joined date-->
+                        <div class="join-date">
+                            <p joinDate></p>
+                        </div>
+                    </section>
+
+                </div>
+
+
+                <!--Github profile details-->
+                <div class="github-profile-details">
+
+                    <!--profile bio-->
+                    <div class="profile-bio">
+                        <p profileBio></p>
+                    </div>
+
+                    <!--details about repository-->
+                    <div class="repo-followers-followings">
+                        <div class="repo-num">
+                            <p class="name">Repos</p>
+                            <p class="number" repoNumber></p>
+                        </div>
+                        <!--details about followers-->
+                        <div class="followers">
+                            <p class="name">Followers</p>
+                            <p class="number" followersNumber></p>
+                        </div>
+                        <!--details about following-->
+                        <div class="following">
+                            <p class="name">Following</p>
+                            <p class="number" followingNumbers></p>
+                        </div>
+                    </div>
+
+                    <!--Contact details-->
+                    <div class="github-contact-details">
+
+                        <section>
+                            <!--Location-->
+                            <div class="contact location">
+                                <img src="assets/location-icon.svg" alt="location" locationImg>
+                                <p locationDetails></p>
+                            </div>
+                            <!--Twitter-->
+                            <div class="contact twitter">
+                                <img src="assets/twitter-icon.svg" alt="twitter" twitterImg>
+                                <a twitterID></a>
+                            </div>
+                        </section>
+
+                        <section>
+                            <!--Website link-->
+                            <div class="contact website-link">
+                                <img src="assets/website-icon.svg" alt="web-link" webLinkImg>
+                                <a websiteLink></a>
+                            </div>
+                            <!--Company name-->
+                            <div class="contact company-name">
+                                <img src="assets/company-icon.svg" alt="company" companyImg>
+                                <p companyName></p>
+                            </div>
+                        </section>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Footer Part-->
+            <div class="footer">
+                <p class="footer-text">Made with ❤️ by <a href="#">Manash Roy</a> </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!--Added Javascript-->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
