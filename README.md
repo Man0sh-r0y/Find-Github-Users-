@@ -1,6 +1,6 @@
 # DevDetective project
 
-[Website Link](https://manash-dev-detective.netlify.app/)
+[Live Demo](https://find-github-users-by-manash.vercel.app/)
 
 ## Dark Mode
 
