@@ -11,11 +11,7 @@ Here I used this GitHub API to fetch user details
   https://api.github.com/users/{userName}
 ```
 
-## Demo (Dark Mode)
+## Demo
 
-![dev detective dark mode](https://github.com/Man0sh-r0y/Find-Github-Users-/assets/96605313/72cd1081-66af-413a-85be-4955942f728a)
+![DevDetective](https://github.com/Man0sh-r0y/Find-Github-Users/assets/96605313/6f058ec0-8ed6-4b31-b581-67c814c2ba75)
 
-
-## Demo (Light Mode)
-
-![dev detective light mode](https://github.com/Man0sh-r0y/Find-Github-Users-/assets/96605313/b0007f68-e7bc-401e-bebc-ba0de8055996)
