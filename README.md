@@ -2,7 +2,7 @@
 
 In this Project, You can find any GitHub users by just entering the GitHub user name.
 
-✅ Watch Live Preview 👉👉 [Live Demo](https://find-github-users-by-manash.vercel.app/)
+Watch Live Preview 👉👉 [Live Demo](https://find-github-users-by-manash.vercel.app/)
 
 ## Used API
 
