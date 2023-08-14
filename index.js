@@ -153,8 +153,8 @@ function applyLightMode() {
     themeIcon.src = "assets/moon-icon.svg";
     themeMode.innerText = 'DARK';
     // chnaging properties of the elements
-    searchUserNameContainer.style.boxShadow = '1em 1em 1em 0em rgb(220, 213, 213)';
-    profileContentContainer.style.boxShadow = '1rem 2rem 2rem 2rem rgba(204, 201, 201, 0.92)';
+    // searchUserNameContainer.style.boxShadow = '1em 1em 1em 0em rgb(220, 213, 213)';
+    // profileContentContainer.style.boxShadow = '1rem 2rem 2rem 2rem rgba(204, 201, 201, 0.92)';
     profileImg.style.border = 'none';
     searchIcon.style.filter = 'none';
     locationImg.style.filter = 'none';

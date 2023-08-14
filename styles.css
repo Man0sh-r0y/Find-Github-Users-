@@ -7,7 +7,7 @@
 }
 
 :root {
-  --wrapper-bg: #f6f8ff;
+  --wrapper-bg: #f5d5a2;
   --container-bg: whitesmoke;
   --searchBar-container-bg: #fefefefb;
   --searchBar-color: #fefefefb;
@@ -57,7 +57,7 @@
 .container {
   /* width: 50%;
   height: 100%; */
-  background-color: var(--container-bg);
+  /* background-color: var(--container-bg); */
   /* overflow-x: hidden; */
   width: 750px;
   height: 100%;
@@ -101,7 +101,7 @@ p {
   align-items: center;
   background-color: var(--searchBar-container-bg);
   border-radius: 1rem;
-  box-shadow: 1em 1em 1em 0em var(--shadow-color);
+  /* box-shadow: 1em 1em 1em 0em var(--shadow-color); */
 }
 
 .search-user-name-container input {
@@ -151,7 +151,7 @@ p {
 
 .profile-content {
   background-color: var(--profile-content-bg);
-  box-shadow: 1rem 2rem 2rem 2rem var(--profile-content-shadow);
+  /* box-shadow: 1rem 2rem 2rem 2rem var(--profile-content-shadow); */
   margin-top: 1.5rem;
   padding: 2rem;
   border-radius: 1rem;
